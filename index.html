@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sketch Pad!</title>
+    <meta charset=utf-8>
+    <meta name="description" content="JS/Jquery Project">
+    <meta name="author" content="Beatriz Barros">    
+    <link href="sketch.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Sketch Pad - JS/Jquery Mini-Project</h1>
+        <h4>Move mouse over area below to sketch, click a button to try a variation. <a href="http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery" target="_blank">Project details</a> 
+
+        </br></br>
+
+        <div id="buttons">
+            <input type="checkbox" name="borders" /><small>Borders (on/off)  </small>
+            <button id="button1" value="1">Simple color change (default)</button>
+            <button id="button2" value="2">Random Color sketch</button>
+            <button id="button3" value="3">Incremental color change</button>            
+            <button id="button4" value="4">Leave a Trail</button>
+        </div>
+    </header>
+    <h2 id="loading_Msg">Loading JQuery, please wait! </h2>
+    <div id="container"></div>  
+
+    </br>
+
+    <footer>
+        <small><a href="#top">top</a></small>
+        <p>Number of boxes should ideally be between 2 and 128! </p>
+    </footer>
+
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+    <script src="sketch.js"></script> 
+</body>
+</html>
